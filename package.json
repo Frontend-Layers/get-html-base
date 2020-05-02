@@ -1,0 +1,23 @@
+{
+  "name": "html-npm-cli",
+  "version": "1.0.0",
+  "description": "HTML template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "bootstrap",
+    "boilerplate"
+  ],
+  "author": "Andrey Matin",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gethtml": "./bin/index.js"
+  }
+}

@@ -1,35 +1,39 @@
-# html-npm-cli
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fandreymatin%2Fhtml-npm-cli.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fandreymatin%2Fhtml-npm-cli?ref=badge_shield)
+# get-html-base
 
-
-Get HTML template by command line
+Get HTML Base by command line
 
 ## Features
 
-- deploy [html-initial-bundle](https://github.com/andreymatin/html-initial-bundle) by command line
+- deploy [html-base](https://github.com/andreymatin/html-base) by command line
 
 ## Installation
 
 ```
-npm i -g html-npm-cli
+npx get-html-base project-name
 ```
 
 ## How to use
 
-1. Go to project's folder
+1. Go to the project folder
 
-
-2. Launch
+2. Install dependencies
 
 ```
-gethtml init
+npm i
 ```
 
-3. Rename 'html-initial-bundle' folder and 'html-initial-bundle/package.json' credentials by new project
+## Related Projects
 
+Some additional services for [html-base](https://www.npmjs.com/package/html-base)
+to improve quality of frontend output.
 
-
+- [scss-reset](https://www.npmjs.com/package/scss-reset)
+- [scss-mixins-npm](https://www.npmjs.com/package/scss-mixins-npm)
+- [mobile-friendly-test-npm](https://www.npmjs.com/package/mobile-friendly-test-npm)
+- [html-speed](https://www.npmjs.com/package/html-speed)
+- [css-test-npm](https://www.npmjs.com/package/css-test-npm)
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fandreymatin%2Fhtml-npm-cli.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fandreymatin%2Fhtml-npm-cli?ref=badge_large)
+
+MIT

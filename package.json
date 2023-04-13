@@ -1,23 +1,32 @@
 {
-  "name": "html-npm-cli",
-  "version": "1.0.0",
-  "description": "HTML template",
+  "name": "get-html-base",
+  "version": "1.0.2",
+  "description": "Get HTML base",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "html",
+    "javascript",
     "bootstrap",
     "boilerplate"
   ],
   "author": "Andrey Matin",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreymatin/get-html-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreymatin/get-html-base/issues"
+  },
+  "homepage": "https://github.com/andreymatin/get-html-base#readme",
   "dependencies": {
     "shelljs": "^0.8.4"
   },
   "preferGlobal": true,
   "bin": {
-    "gethtml": "./bin/index.js"
+    "get-base": "./bin/index.js"
   }
 }

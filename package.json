@@ -1,6 +1,6 @@
 {
   "name": "get-html-base",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Get HTML base",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/andreymatin/get-html-base#readme",
   "dependencies": {
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.5"
   },
   "preferGlobal": true,
   "bin": {

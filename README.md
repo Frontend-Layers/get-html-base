@@ -1,15 +1,17 @@
 # get-html-base
 
-Get frontend infrastructure by command line
+Get base infrastructure by command line for frontend templates, node apps etc.
 
 ## Features
 
 - deploy [html-base](https://github.com/andreymatin/html-base) by command line
 - infrastructure for development JS libraries and Web Components 
+- deploy [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+- deploy [node-frontend-config](https://github.com/andreymatin/node-frontend-config)
 
 ## Installation
 
-```
+```shell
 npx get-html-base project-name
 ```
 
@@ -18,24 +20,12 @@ npx get-html-base project-name
 Configuration options depend of keys, described below
 
 
-### Command line switches
+### Commandline switches
 
-- without keys - just install default html-base package
-- -js - install html-base with JavaScript profile oriented on JS libraries and Web Components development
-
-
-## Related Projects
-
-Some additional services for [html-base](https://www.npmjs.com/package/html-base)
-to improve quality of frontend output.
-
-- [ui-exporer](https://www.npmjs.com/package/ui-exporer)
-- [scss-reset](https://www.npmjs.com/package/scss-reset)
-- [scss-mixins-npm](https://www.npmjs.com/package/scss-mixins-npm)
-- [mobile-friendly-test-npm](https://www.npmjs.com/package/mobile-friendly-test-npm)
-- [html-speed](https://www.npmjs.com/package/html-speed)
-- [css-test-npm](https://www.npmjs.com/package/css-test-npm)
-
+- without keys - deploy [html-base](https://github.com/andreymatin/html-base) package
+- -js - deploy [html-base](https://github.com/andreymatin/html-base) with JS profile oriented on JavaScript libraries and Web Components development
+- -node - deploy node server kickstarter with Express/Nodemon etc. [node-frontend-config](https://github.com/andreymatin/node-frontend-config)
+- -h5bp - deploy [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 
 ## Test
 

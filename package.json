@@ -1,6 +1,6 @@
 {
   "name": "get-html-base",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Get HTML base",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "preferGlobal": true,
   "bin": {
-    "get-base": "./bin/index.js"
+    "get-html-base": "./bin/index.js"
   }
 }
